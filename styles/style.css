@@ -1,0 +1,114 @@
+*{
+    margin: auto;
+    padding: 20;
+}
+
+h1{
+    color: rgb(80, 25, 205);
+    text-align: center;
+    padding: 20px;
+	text-align: center;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h2{
+    color: rgb(76, 32, 117);
+text-align: center;
+}
+
+
+main {
+    background-color: rgba(95, 25, 112, 0.226);
+    width: 800px;
+    border: 2px solid rgb(153, 51, 139);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(219, 35, 121);
+	padding: 30px;
+}
+p{
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    padding: 10px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(134, 23, 224) ;
+	padding: 10px;
+	border-radius: 30px;
+	padding-bottom: 10px;
+	justify-content: space-between;
+}
+
+img {
+    width: 600px;
+    text-align: center;
+	border-radius: 30px;
+	box-shadow: #085b9e;
+ }
+
+
+a:hover{
+	background-color: blueviolet;
+	color: #000;
+}
+
+span{
+	color: beige;
+font-size: 20px;
+font-weight: bolder;
+text-decoration: overline;
+}
+body{
+	background-color: rgb(179, 106, 179);
+background-size: cover;
+padding: 20px;
+color: rgb(63, 13, 179);
+}
+
+footer{
+	text-align: center;
+	text-decoration: underline;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: rgb(76, 43, 226);
+	padding: 20px;
+	border-top-left-radius: 30px;
+}
+
+/*identificador*/
+#bienvenida{
+	background-color: blueviolet;
+	border: 1px;
+	padding: auto;
+	font-size: 20px;
+	color: #9e3ca1;
+	float: right;
+	width: 500px;
+
+}
+/*clases*/
+.bienvenida{
+	background-color: blueviolet;
+	border: 1px;
+
+}
+.container{
+	display: flex;
+	padding: 20px;
+
+}
+/*.imgPpal{
+	float: left;
+
+}
+.clear{
+	clear: both;
+}
+#imgSec{
+
+}*/
